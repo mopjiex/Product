@@ -28,7 +28,7 @@ body {
 
 .container {
     max-width: 1120px;
-    padding: 0 10;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
@@ -245,6 +245,8 @@ body {
 }
 
 /*   // SPECIFICALLY   */
+
+/*   SERVICES   */
 .services {
     color: #22343d;
 }
@@ -298,4 +300,73 @@ body {
    display: flex;
    gap: 30px;
    margin-bottom: 40px;
+}
+/*   // SERVICES   */
+
+.process {
+    background-image: url(../images/Main/Process/Bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.process__title {
+    padding-top: 52px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.process__text {
+    max-width: 542px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 auto 32px auto;
+}
+
+.process__inner {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 48px;
+}
+
+.card__item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.card__item-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f281e;
+    padding: 15px 25px;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+    border-radius: 26.5px;
+}
+
+
+.process__card:nth-child(1) .card__item:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.process__card:nth-child(2) .card__item:nth-child(1) {
+    flex-direction: row-reverse;
+}
+
+.process__btn {
+    display: block;
+    max-width: 216px;
+    margin: 0 auto 150px auto;
+    background-color: #02897a;
+    border-radius: 4px;
+    padding: 15px 30px;
+    color: #fff;
+    
 }
