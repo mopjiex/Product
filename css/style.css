@@ -303,6 +303,8 @@ body {
 }
 /*   // SERVICES   */
 
+
+/*   PROCESS   */
 .process {
     background-image: url(../images/Main/Process/Bg.png);
     background-position: center;
@@ -368,5 +370,89 @@ body {
     border-radius: 4px;
     padding: 15px 30px;
     color: #fff;
-    
 }
+
+/*   // PROCESS   */
+
+
+/*   STRATEGIES  */
+.strategies {
+    color: #22343d;
+}
+
+.strategies__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    margin-bottom: 8px;
+}
+
+.strategies__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 33px;
+}
+
+.strategies__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+    margin-bottom: 64px;
+}
+
+.strategies__card {
+    max-width: 348px;
+    border-radius: 8px;
+    border: 1px solid #c0c0c0;
+    border-top: none;
+}
+
+.strategies__card-img {
+    width: 100%;
+    min-height: 183px;
+    margin-bottom: 24px;
+}
+
+.strategies__card-content {
+    padding: 0 24px;
+}
+.strategies__card-name {
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.strategies__card-name span {
+    font-weight: 700;
+}
+
+.strategies__card-date {
+    display: inline-block;
+}
+
+.strategies__card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.strategies__slider-btns {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.slider__btn {
+    width: 16px;
+    height: 16px;
+    background-color: #efefef;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #02897a;
+}
+
+/*   // STRATEGIES  */
