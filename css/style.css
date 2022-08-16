@@ -185,7 +185,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-bottom: 90px;
+    padding-bottom: 155px;
     margin-bottom: 150px;
     
 }
@@ -310,10 +310,11 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 160px;
 }
 
 .process__title {
-    padding-top: 52px;
+    
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
@@ -457,6 +458,8 @@ body {
 
 /*   // STRATEGIES  */
 
+
+/*   PRICE  */
 .price {
     color: #22343d;
 }
@@ -580,4 +583,75 @@ body {
 .active__price-btn {
     background-color: #fff;
     color: #02897a;
+}
+/*   // PRICE  */
+
+.clients {
+    color: #22343d;
+}
+
+.clients__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin-bottom: 8px;
+}
+
+.clients__text {
+    max-width: 537px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.clients__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 157px;
+}
+
+.clients__card {
+    padding: 24px 26px;
+    flex-basis: 327px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+
+.clients_star {
+    margin-bottom: 16px;
+}
+
+.clients__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 16px;
+}
+
+.clients__personal {
+    display: flex;
+    gap: 14px;
+}
+
+.personal__name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #02897a;
+}
+
+.personal__job {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252842;
 }
