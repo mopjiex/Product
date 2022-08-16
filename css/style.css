@@ -456,3 +456,128 @@ body {
 }
 
 /*   // STRATEGIES  */
+
+.price {
+    color: #22343d;
+}
+
+.price__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    margin-bottom: 8px;
+}
+
+.price__text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.price__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.price__card {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, .25);
+    border-radius: 8px;
+    padding: 24px 73px;
+}
+
+.active__price {
+    background-color: #02897a;
+    color: #fff;
+}
+
+.price__card-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.price__card-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+
+.price__card-price {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.card__price-value {
+    color: #02897a;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 100px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.price__sign-dollar {
+    color: #02897a;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    margin-bottom: 4px;
+}
+
+.active__price-value,
+.active__sign-dollar {
+    color: #fff;
+}
+.price__sign-month {
+    color: #afafaf;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+}
+
+.price__list {
+    text-align: center;
+    gw: 500px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    margin-bottom: 38px;
+}
+
+.price__list-item {
+    margin-bottom: 16px;
+}
+
+.price__list-item:last-child {
+    margin-bottom: 0;
+}
+
+.price__btn {
+    display: block;
+    max-width: 140px;
+    margin: 0 auto;
+    background-color: #02897a;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    padding: 11px 19px;
+}
+
+.active__price-btn {
+    background-color: #fff;
+    color: #02897a;
+}
